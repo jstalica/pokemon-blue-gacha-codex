@@ -1,0 +1,5 @@
+[build]
+command = "cd server && npm install"
+
+[deploy]
+command = "cd server && npm run start"
