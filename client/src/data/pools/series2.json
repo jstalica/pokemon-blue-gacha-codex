@@ -1,0 +1,93 @@
+{
+  "seriesId": "S2",
+  "name": "Mt. Moon–Cerulean",
+  "rarities": {
+    "C": { "rate": 0.58 },
+    "U": { "rate": 0.24 },
+    "R": { "rate": 0.12 },
+    "E": { "rate": 0.05 },
+    "L": { "rate": 0.01 }
+  },
+  "setBonus": {
+    "badgeName": "Cascade Capsule Badge",
+    "reward": "Unlocked DMG Shell Tint: Mist",
+    "sprite": "badge_cascade.svg",
+    "rarity": "L"
+  },
+  "items": [
+    {
+      "id": "frame_mist",
+      "name": "Trainer Frame: Mist",
+      "type": "cosmetic",
+      "rarity": "C",
+      "sprite": "frame_mist.svg",
+      "description": "Waterfall border inspired by Cerulean Gym."
+    },
+    {
+      "id": "frame_fossil",
+      "name": "Trainer Frame: Helix",
+      "type": "cosmetic",
+      "rarity": "C",
+      "sprite": "frame_fossil.svg",
+      "description": "Fossil etchings from the deepest Mt. Moon caverns."
+    },
+    {
+      "id": "bike_surf",
+      "name": "Bike Skin: Surf Blue",
+      "type": "cosmetic",
+      "rarity": "U",
+      "sprite": "bike_surf.svg",
+      "description": "A shimmering blue bike skin with surf wax decals."
+    },
+    {
+      "id": "badge_glow",
+      "name": "Badge Glow: Cascade",
+      "type": "cosmetic",
+      "rarity": "U",
+      "sprite": "badge_glow.svg",
+      "description": "Adds a soft glow to earned badges on your trainer card."
+    },
+    {
+      "id": "lure_cavern_10",
+      "name": "Cavern Lure (10m)",
+      "type": "field_modifier",
+      "rarity": "R",
+      "sprite": "lure_cavern.svg",
+      "modifier": { "table": "cave", "durationSec": 600 },
+      "description": "Boosts encounters for existing cave dwellers without adding new species."
+    },
+    {
+      "id": "lure_mist_10",
+      "name": "Mist Lure (10m)",
+      "type": "field_modifier",
+      "rarity": "R",
+      "sprite": "lure_mist.svg",
+      "modifier": { "table": "water", "durationSec": 600 },
+      "description": "Increases water encounters around Cerulean routes."
+    },
+    {
+      "id": "follower_pokedoll_clefairy",
+      "name": "Follower PokéDoll: Clefairy",
+      "type": "cosmetic",
+      "rarity": "E",
+      "sprite": "follower_pokedoll_clefairy.svg",
+      "description": "A bobbleheaded Clefairy doll that hovers behind you."
+    },
+    {
+      "id": "sound_fx_moonwave",
+      "name": "Sound FX Swap: Moonwave",
+      "type": "cosmetic",
+      "rarity": "E",
+      "sprite": "sfx_moonwave.svg",
+      "description": "Chiptune arpeggios replace the Center healing jingle."
+    },
+    {
+      "id": "intro_filter_mint",
+      "name": "Battle Intro: Mint Scan",
+      "type": "cosmetic",
+      "rarity": "L",
+      "sprite": "intro_filter_mint.svg",
+      "description": "Adds a mint-colored scan effect to battle intros."
+    }
+  ]
+}

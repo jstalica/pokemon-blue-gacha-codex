@@ -1,0 +1,93 @@
+{
+  "seriesId": "S1",
+  "name": "Pallet–Pewter",
+  "rarities": {
+    "C": { "rate": 0.6 },
+    "U": { "rate": 0.25 },
+    "R": { "rate": 0.1 },
+    "E": { "rate": 0.04 },
+    "L": { "rate": 0.01 }
+  },
+  "setBonus": {
+    "badgeName": "Pallet Capsule Badge",
+    "reward": "Unlocked DMG Shell Tint: Indigo",
+    "sprite": "badge_pallet.svg",
+    "rarity": "L"
+  },
+  "items": [
+    {
+      "id": "frame_oak",
+      "name": "Trainer Frame: Oak",
+      "type": "cosmetic",
+      "rarity": "C",
+      "sprite": "frame_oak.svg",
+      "description": "Oak's wood-grain frame for your Trainer Card."
+    },
+    {
+      "id": "frame_pallet",
+      "name": "Trainer Frame: Pallet Town",
+      "type": "cosmetic",
+      "rarity": "C",
+      "sprite": "frame_pallet.svg",
+      "description": "Pallet Town border with tiny pixel pines."
+    },
+    {
+      "id": "bike_red",
+      "name": "Bike Skin: Red",
+      "type": "cosmetic",
+      "rarity": "U",
+      "sprite": "bike_red.svg",
+      "description": "Fire-engine paint for your bike's fairings."
+    },
+    {
+      "id": "bike_blue",
+      "name": "Bike Skin: Blue",
+      "type": "cosmetic",
+      "rarity": "U",
+      "sprite": "bike_blue.svg",
+      "description": "Deep blue enamel that matches Oak's lab floor."
+    },
+    {
+      "id": "lure_bug_10",
+      "name": "Bug Lure (10m)",
+      "type": "field_modifier",
+      "rarity": "R",
+      "sprite": "lure_bug_10.svg",
+      "modifier": { "table": "bug", "durationSec": 600 },
+      "description": "Boosts Bug encounter weights on routes that already host bugs."
+    },
+    {
+      "id": "lure_nocturnal_10",
+      "name": "Nocturnal Lure (10m)",
+      "type": "field_modifier",
+      "rarity": "R",
+      "sprite": "lure_nocturnal_10.svg",
+      "modifier": { "table": "night", "durationSec": 600 },
+      "description": "Draws out nocturnal species at dusk without changing tables."
+    },
+    {
+      "id": "follower_pokedoll_pikachu",
+      "name": "Follower PokéDoll: Pikachu",
+      "type": "cosmetic",
+      "rarity": "E",
+      "sprite": "follower_pokedoll_pikachu.svg",
+      "description": "A plush Pikachu that trails behind the player on the overworld."
+    },
+    {
+      "id": "intro_filter_indigo",
+      "name": "Battle Intro: Indigo Filter",
+      "type": "cosmetic",
+      "rarity": "L",
+      "sprite": "intro_filter_indigo.svg",
+      "description": "Adds indigo scanlines to the battle intro wipe."
+    },
+    {
+      "id": "sfx_healing_chime",
+      "name": "Sound FX Swap: Healing Chime",
+      "type": "cosmetic",
+      "rarity": "E",
+      "sprite": "sfx_healing_chime.svg",
+      "description": "Replaces healing center chime with a glowy synth trill."
+    }
+  ]
+}
